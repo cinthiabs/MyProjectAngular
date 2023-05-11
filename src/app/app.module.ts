@@ -8,7 +8,8 @@ import { FooterComponent } from './Navegacao/footer/footer.component';
 import { SobreComponent } from './Institucional/sobre/sobre.component';
 import { ContatoComponent } from './Institucional/contato/contato.component';
 import { rootConfig } from './app.rotas';
-
+import { DataBindingComponent } from './demos/data-binding/data-binding.component';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,10 +17,12 @@ import { rootConfig } from './app.rotas';
     HomeComponent,
     FooterComponent,
     SobreComponent,
-    ContatoComponent
+    ContatoComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     [RouterModule.forRoot(rootConfig,{useHash:false})]
   ],
   providers: [],
