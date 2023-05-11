@@ -1,0 +1,52 @@
+{
+    "produtos":[
+        {
+            "id":1,
+            "nome":"mouse Microsoft",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"mouse.jpg"
+        },
+        {
+            "id":2,
+            "nome":"GO Pro",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"gopro.jpg"
+        },
+        {
+            "id":3,
+            "nome":"Headset",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"headset.jpg"
+        },
+        {
+            "id":4,
+            "nome":"Laptop",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"laptop.jpg"
+        },
+        {
+            "id":5,
+            "nome":"Monitor",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"monitor.jpg"
+        },
+        {
+            "id":6,
+            "nome":"mousepad",
+            "valor":15.99,
+            "promocao": false,
+            "valorPromo":0,
+            "imagem":"mousepad.jpg"
+        }
+    ]
+}

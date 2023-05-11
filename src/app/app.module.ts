@@ -10,6 +10,9 @@ import { ContatoComponent } from './Institucional/contato/contato.component';
 import { rootConfig } from './app.rotas';
 import { DataBindingComponent } from './demos/data-binding/data-binding.component';
 import { FormsModule } from '@angular/forms';
+import { ProdutoService } from './Produtos/produtos.service';
+import { ListaProdutoComponent } from './Produtos/lista-produto/lista-produto.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,14 +21,16 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     SobreComponent,
     ContatoComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    ListaProdutoComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     [RouterModule.forRoot(rootConfig,{useHash:false})]
   ],
-  providers: [],
+  providers: [ProdutoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
