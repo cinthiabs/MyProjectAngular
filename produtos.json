@@ -3,7 +3,7 @@
         {
             "id":1,
             "nome":"mouse Microsoft",
-            "valor":15.99,
+            "valor":45.99,
             "promocao": false,
             "valorPromo":0,
             "imagem":"mouse.jpg"
@@ -19,23 +19,23 @@
         {
             "id":3,
             "nome":"Headset",
-            "valor":15.99,
-            "promocao": false,
-            "valorPromo":0,
+            "valor":85.99,
+            "promocao": true,
+            "valorPromo":50.00,
             "imagem":"headset.jpg"
         },
         {
             "id":4,
             "nome":"Laptop",
-            "valor":15.99,
-            "promocao": false,
-            "valorPromo":0,
+            "valor":1.999,
+            "promocao": true,
+            "valorPromo":1.500,
             "imagem":"laptop.jpg"
         },
         {
             "id":5,
             "nome":"Monitor",
-            "valor":15.99,
+            "valor":2.800,
             "promocao": false,
             "valorPromo":0,
             "imagem":"monitor.jpg"
@@ -43,9 +43,9 @@
         {
             "id":6,
             "nome":"mousepad",
-            "valor":15.99,
-            "promocao": false,
-            "valorPromo":0,
+            "valor":30.99,
+            "promocao": true,
+            "valorPromo":25.99,
             "imagem":"mousepad.jpg"
         }
     ]

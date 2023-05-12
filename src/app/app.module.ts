@@ -13,6 +13,9 @@ import { FormsModule } from '@angular/forms';
 import { ProdutoService } from './Produtos/produtos.service';
 import { ListaProdutoComponent } from './Produtos/lista-produto/lista-produto.component';
 import { HttpClientModule } from '@angular/common/http';
+import { registerLocaleData } from '@angular/common';
+import localePt from '@angular/common/locales/pt'
+registerLocaleData(localePt);
 @NgModule({
   declarations: [
     AppComponent,
